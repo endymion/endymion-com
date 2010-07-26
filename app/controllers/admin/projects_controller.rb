@@ -1,4 +1,4 @@
-class ProjectsController < ApplicationController
+class Admin::ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.xml
   def index

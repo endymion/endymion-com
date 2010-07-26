@@ -2,7 +2,9 @@ EndymionCom::Application.routes.draw do |map|
 
   get "pages/root"
 
-  resources :projects
+  namespace :admin do
+    resources :projects
+  end
 
   root :to => "pages#root"
 
