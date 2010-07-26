@@ -1,4 +1,6 @@
 EndymionCom::Application.routes.draw do |map|
+  resources :projects
+
 
   get "pages/root"
 
