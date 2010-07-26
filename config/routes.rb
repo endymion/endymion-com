@@ -1,7 +1,10 @@
 EndymionCom::Application.routes.draw do |map|
+
   get "pages/root"
 
   resources :projects
+
+  root :to => "pages#root"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
