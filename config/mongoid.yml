@@ -1,0 +1,25 @@
+defaults: &defaults
+  host: localhost
+  autocreate_indexes: false
+  allow_dynamic_fields: true
+  parameterize_keys: true
+  persist_in_safe_mode: true
+  raise_not_found_error: true
+  reconnect_time: 3
+
+development:
+  <<: *defaults
+  database: endymion_com_development
+
+test:
+  <<: *defaults
+  database: endymion_com_test
+
+# set these environment variables on your prod server
+production:
+  <<: *defaults
+  host: flame.mongohq.com
+  port: 27092
+  username: endymion
+  password: endymion
+  database: endymion_com
