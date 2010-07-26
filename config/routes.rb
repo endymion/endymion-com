@@ -1,4 +1,6 @@
 EndymionCom::Application.routes.draw do |map|
+  get "pages/root"
+
   resources :projects
 
   # The priority is based upon order of creation:
