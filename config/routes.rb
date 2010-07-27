@@ -1,8 +1,8 @@
 EndymionCom::Application.routes.draw do |map|
-  resources :projects
-
 
   get "pages/root"
+
+  resources :projects, :only => [:index, :show]
 
   namespace :admin do
     resources :projects
