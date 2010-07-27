@@ -6,6 +6,11 @@ body {
   background: url(/images/background.gif) repeat-y;
 }
 
+#min-width {
+  min-width: 960px;
+  height: 100%;
+}
+
 #nav {
   background-color: #ff9900;
   float: left;
