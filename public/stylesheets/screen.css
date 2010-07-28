@@ -4,6 +4,7 @@ html {
 body {
   height: 100%;
   background: url(/images/background.gif) repeat-y;
+  font-family: Gill Sans, Helvetica Narrow, Lucida, sans-serif;
 }
 
 #min-width {
@@ -14,25 +15,26 @@ body {
 #nav {
   background-color: #ff9900;
   float: left;
-  width: 30%;
+  width: 304px;
   height: 100%;
   text-align: right;
-  padding-right: 1em;
+  padding-right: 20px;
 }
 
 #nav h1 {
+  font-family: New Century Schoolbook, Palatino, Bookman, Times, serif;
   color: white;
   font-size: 4em;
   margin-top: 30px;
   margin-bottom: 14px;
-  line-height: 10px;
 }
 #nav h1 span.subheading {
+  font-family: Gill Sans, Helvetica Narrow, Lucida, sans-serif;
+  color: #ffcc66;
   font-size: 30%;
-  letter-spacing: 1ex;
   text-transform: uppercase;
   position: relative;
-  left: 1ex;
+  top: -0.5ex;
 }
 
 #nav ul#nav-links {
@@ -40,7 +42,12 @@ body {
   line-height: 5em;
 }
 #nav ul#nav-links li {
+  color: white;
   font-size: 4em;
+}
+#nav ul#nav-links li.selected:before {
+  content: '\2219';
+  color: #ffcc66;
 }
 
 #nav img#logo {
@@ -50,7 +57,7 @@ body {
 }
 
 #bottom {
-  margin-left: 30%;
+  margin-left: 304px;
   padding-left: 3em;
   padding-right: 2em;
 }
