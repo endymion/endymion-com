@@ -44,7 +44,9 @@ body {
 }
 #nav ul#nav-links li {
   color: white;
+  font-family: Gill Sans, Helvetica Narrow, Lucida, sans-serif;
   font-size: 4em;
+  font-weight: bold;
 }
 #nav ul#nav-links li.selected:before {
   content: '\2219';
