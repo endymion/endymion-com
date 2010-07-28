@@ -58,6 +58,8 @@ body {
 }
 
 #bottom {
+  font-size: 150%;
+  padding-top: 1.5em;
   margin-left: 304px;
   padding-left: 3em;
   padding-right: 2em;
