@@ -40,12 +40,12 @@ body {
 
 #nav ul#nav-links {
   margin-top: 2em;
-  line-height: 5em;
+  line-height: 3.5em;
 }
 #nav ul#nav-links li {
   color: white;
   font-family: Gill Sans, Helvetica Narrow, Lucida, sans-serif;
-  font-size: 4em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 #nav ul#nav-links li.selected:before {
